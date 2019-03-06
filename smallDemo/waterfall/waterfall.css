@@ -1,0 +1,45 @@
+*  {
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+html,body{
+    display:block;
+    /* height: 100%; */
+    /* overflow: hidden; */
+    position: relative;
+}
+.wapper{
+    position: relative;
+    width: 100%;
+    margin:0 auto;  
+    width:800px;
+    /* overflow: hidden; */
+
+   
+}
+.wapper::after{
+    display: block;
+    content: "";
+
+}
+li{
+    float: left;
+    margin:5px;
+    width:188px;
+    border:1px solid #333;
+ 
+}
+img{
+    width: 100%;
+}
+p{
+  
+
+    width:100%;
+    word-wrap:break-word; 
+    word-break:break-all;
+
+    /* overflow: hidden ; */
+    
+}

@@ -1,0 +1,48 @@
+/* #wrapper .card-box div{
+    display: none;
+    position:relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:100%;
+        margin-top: 42px;
+    font-size: 50px;
+    text-align: center;
+    line-height: 100px;
+     font-weight: 700;
+    transition:left 200ms;
+    background-size: 100% 100%;
+  
+    } */
+#wrapper .option-box{
+    width: 100%;
+    height: 16%;
+    line-height: 16%;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+     /* width: 381px; */
+    }
+    #wrapper .option{
+    list-style:none;
+    position: relative;
+    /* float: left; */
+    display: inline-block;
+    /* width: 125px; */
+    height: 100%;
+    /* border:1px solid brown; */
+    text-align: center;
+    line-height: 40px;
+    margin:0 auto;
+     }
+    #wrapper .dome{
+    color: #c38;
+    font-size: 22px;
+    font-weight: bold;
+    }
+    #wrapper .card-box{
+    width: 100%;
+    height: 84%;
+    overflow: hidden;
+       
+    }
